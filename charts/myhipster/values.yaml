@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.100.166.137:5000/javadev-a/myhipster
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: myhipster
